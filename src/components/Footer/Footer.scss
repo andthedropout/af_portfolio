@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.Footer {
+	background: $color1;
+	padding: 2rem;
+	@include flexCenter;
+	flex-direction: column;
+	color: $color2;
+	font-size: 12px;
+	svg {
+		margin-bottom: 2rem;
+	}
+}

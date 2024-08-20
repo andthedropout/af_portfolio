@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.Loader {
+	text-align: center;
+	background: $color1;
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	@include flexCenter;
+	svg {
+		max-width: 900px;
+		height: auto;
+	}
+}
