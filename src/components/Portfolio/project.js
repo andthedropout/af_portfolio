@@ -5,7 +5,7 @@ export default function Project(props) {
     <div className="Project">
       <div className="front">
         {props.data.logo ? (
-          <img src={props.data.logo} alt="Logo" />
+          <img src={props.data.logo} alt="Logo" className={props.data.invert ? "invert" : ""} />
         ) : (
           props.data.name
         )}

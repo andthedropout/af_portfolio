@@ -12,6 +12,9 @@ import Monogram from "../../images/showcase/monogram.png"
 import Blxst from "../../images/showcase/blxst.png"
 import BM from "../../images/showcase/bm.png"
 import DYODE from "../../images/showcase/dyode.svg"
+import Gaggle from "../../images/showcase/gaggle.png"
+import SocialNex from "../../images/showcase/socialnex.svg"
+import SMLXL from "../../images/showcase/smlxl.png"
 
 const Project2 = [{
     name: "DYODE",
@@ -46,11 +49,35 @@ const Project2 = [{
     date: "Front-End Developer (2014-2016)",
   },
   {
+    name: "Gaggle Social",
+    logo: Gaggle,
+    beschreibung: "Gaggle Social",
+    demo: "https://gagglesocial.com/",
+    date: "Full Stack Developer",
+    invert: true
+  },
+  {
+    name: "SocialNex",
+    logo: SocialNex,
+    beschreibung: "SocialNex",
+    demo: "https://socialnex.ai/",
+    date: "Web Development",
+    invert: true
+  },
+  {
+    name: "KEEP by SMLXL",
+    logo: SMLXL,
+    beschreibung: "KEEP by SMLXL",
+    demo: "https://keep.smlxlmerch.com/",
+    date: "Web Development",
+    invert: true
+  },
+  {
     name: "The Dropout Music",
     logo: TheDropout,
     beschreibung: "The Dropout Music",
     // github: "https://github.com/andthedropout/dropout-deno",
-    demo: "https://www.thedropout.club/",
+    demo: "https://thedropout.org/game/hd2d",
     date: "Personal Project"
   }];
   

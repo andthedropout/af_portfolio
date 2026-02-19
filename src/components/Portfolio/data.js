@@ -1,3 +1,7 @@
+import GrowLocal from "../../images/showcase/growlocal.svg";
+import GreenDoorLive from "../../images/showcase/greendoorlive.png";
+import WizKhalifa from "../../images/showcase/wizkhalifa.png";
+import Megan from "../../images/showcase/megan.png";
 import Movano from "../../images/showcase/movano.svg"
 import SBFilter from "../../images/showcase/sbfilter.png";
 import Agjeans from "../../images/showcase/agjeans.png";
@@ -8,6 +12,33 @@ import Invisalign from "../../images/showcase/invisalign.svg";
 import Ekster from "../../images/showcase/ekster.svg";
 
 const Project = [
+  {
+    name: "GrowLocal",
+    demo: "https://growlocal.site/",
+    date: "Web Development Project",
+    logo: GrowLocal,
+    invert: true
+  },
+  {
+    name: "Green Door Live",
+    demo: "https://www.greendoorlive.com/",
+    date: "Ecommerce Development Client",
+    logo: GreenDoorLive,
+  },
+  {
+    name: "Wiz Khalifa",
+    demo: "https://wizkhalifa.com/",
+    date: "Ecommerce Development Client",
+    logo: WizKhalifa,
+    invert: true
+  },
+  {
+    name: "Megan Thee Stallion",
+    demo: "https://store.megantheestallion.com/",
+    date: "Ecommerce Development Client",
+    logo: Megan,
+    invert: true
+  },
   {
     name: "Movano",
     demo: "https://eviering.com/",

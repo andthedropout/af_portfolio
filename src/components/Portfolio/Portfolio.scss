@@ -67,6 +67,9 @@
 					max-width: 80%;
 					border-radius:6px;
 				}
+				img.invert {
+					filter: brightness(0) invert(1);
+				}
 			}
 
 			.back {
