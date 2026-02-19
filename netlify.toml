@@ -1,0 +1,3 @@
+[build]
+  command = "bun install && NODE_OPTIONS=--openssl-legacy-provider bun run build"
+  publish = "build"
