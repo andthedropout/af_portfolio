@@ -37,7 +37,7 @@ export default function Chat() {
 			setMessages(currentDialog.messages);
 			setCompleted(true);
 		}
-	}, [slug, status]);
+	}, [slug, status]); // eslint-disable-line react-hooks/exhaustive-deps
 
 	const containerMotion = {
 		show: {
